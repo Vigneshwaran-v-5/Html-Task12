@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#heading{
+    color:rgb(255, 149, 0);
+    background-color: black;
+    font-size: 2rem;
+    font-weight:bolder;
+    padding: 20px;
+    padding-right: 25px;
+    padding-left: 15px;
+}
+#color{
+    float: right;
+    color: rgb(57, 220, 20);
+}
+#box{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width:100%;
+}
+#btn{
+    font-size: 2.5rem;
+    background-color: cornflowerblue;
+    padding: 8px;
+}
+#btn:hover{
+    background-color: rgb(100, 237, 149);
+}
